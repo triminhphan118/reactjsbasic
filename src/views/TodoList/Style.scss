@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%) no-repeat;
+    font-size: 1.6rem;
+}
+
+.wrapper {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba($color: #000000, $alpha: .07);
+    margin-top: 100px;
+    background-color: #fff;
+
+    .heading {
+        display: block;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .additem {
+        display: flex;
+        align-items: center;
+
+        input {
+            flex: 1;
+            margin-right: 20px;
+            font-size: 1.6rem;
+            padding: 10px;
+            border-color: rgba($color: #000000, $alpha: .125);
+            border-radius : 5px;
+            outline: none;
+        }
+    }
+
+    .listtodo {
+        list-style: none;
+    }
+
+    .itemtodo {
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 1.7rem;
+        background-color: rgba(0, 0, 0, 0.2);
+        margin: 10px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        input {
+            flex: 1;
+            margin-right: 20px;
+            font-size: 1.6rem;
+            padding: 10px;
+            border : none;
+            border-radius : 5px;
+            outline: none;
+        }
+    }
+}
+
+.btn {
+    padding: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.5rem;
+}
+
+.btn + .btn {
+    margin-left: 10px;
+}
+
+.btn:hover {
+    background-color: aquamarine;
+}
+
+.card {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba($color: #000000, $alpha: .07);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.6rem;
+
+    .card__img {
+        width: 100%;
+        height: 200px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    .btn {
+        padding: 10px 20px;
+        background-color: transparent;
+        border: 1px solid rgba($color: #000000, $alpha: .125);
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 1.6rem;
+        margin-top: 20px;
+    }
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.div-img {
+    margin: 0 auto;
+    max-width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
